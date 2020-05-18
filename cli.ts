@@ -1,5 +1,5 @@
-import { parse } from "https://deno.land/std/flags/mod.ts";
-import { red } from "https://deno.land/std/fmt/colors.ts";
+import { parse } from "https://deno.land/std@0.51.0/flags/mod.ts";
+import { red } from "https://deno.land/std@0.51.0/fmt/colors.ts";
 import { printHelp } from "./cli/help.ts";
 import { evaluateAndPrint } from "./cli/evaluate.ts";
 import { startREPL } from "./cli/repl.ts";

@@ -1,5 +1,5 @@
-import { readLines } from "https://deno.land/std/io/bufio.ts";
-import { blue, red, bold } from "https://deno.land/std/fmt/colors.ts";
+import { readLines } from "https://deno.land/std@0.51.0/io/bufio.ts";
+import { blue, red, bold } from "https://deno.land/std@0.51.0/fmt/colors.ts";
 import { Expression, evaluate } from "../evaluator.ts";
 
 const { stdout, stdin } = Deno;
