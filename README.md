@@ -2,12 +2,32 @@
 
 A Reverse Polish notation calculator implemented with Deno and TypeScript.
 
-## Installation
+## Running
 
 Install the [Deno runtime 1.0](https://deno.land/#installation) or newer. Once installed, run the following command:
 
+```
+deno run cli.ts 1 2 +
+```
+
+Or to start the REPL:
+
+```
+deno run cli.ts
+```
+
+## Install as script
+
+You can install it as a shell script running the command:
+
 ```bash
 deno install -n rpn cli.ts
+```
+
+Then, you can use it directly:
+
+```bash
+rpn 1 2 +
 ```
 
 ## Usage
