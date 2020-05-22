@@ -8,6 +8,8 @@ export function evaluate(expression: Expression = []): Array<number> {
   for (const valueOrFunc of expression) {
     if (typeof valueOrFunc === "number") {
       stack.push(valueOrFunc);
+
+      continue;
     }
 
     if (typeof valueOrFunc === "string") {
