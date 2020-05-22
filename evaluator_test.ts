@@ -276,12 +276,12 @@ test("supports hyperbolic tangent", () => {
 
 test("supports E", () => {
   /* e */
-  assertNotEquals(evaluate(["e"]), [0]);
+  assertEquals(evaluate(["e"]), [Math.E]);
 });
 
 test("supports PI", () => {
   /* pi */
-  assertNotEquals(evaluate(["pi"]), [0]);
+  assertEquals(evaluate(["pi"]), [Math.PI]);
 });
 
 test("supports generate a random number", () => {
