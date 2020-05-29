@@ -2,7 +2,7 @@
   "deno.enable": true,
 
   "[typescript]": {
-    "editor.defaultFormatter": "justjavac.vscode-deno",
+    "editor.defaultFormatter": "denoland.vscode-deno",
     "editor.formatOnSave": true,
   },
 }
