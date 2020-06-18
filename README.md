@@ -2,6 +2,8 @@
 
 A Reverse Polish notation calculator implemented with Deno and TypeScript.
 
+![CI](https://github.com/fabiano/rpn/workflows/CI/badge.svg)
+
 ## Running
 
 Install the [Deno runtime 1.0](https://deno.land/#installation) or newer. Once installed, run the following command:
